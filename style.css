@@ -32,7 +32,7 @@ h1 {
     flex-direction: row;
     padding-left: 0;
 
-    margin-left: 0;
+    margin-left: 6px;
     background: hsl(0, 0%, 0%);
     width: 200px;
     height: 100px;
