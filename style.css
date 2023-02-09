@@ -25,6 +25,10 @@ h1 {
     font-size: 15px;
 }
 
+.buy:hover {
+    color: hsl(0, 0%, 63%);
+}
+
 .buttons {
     display: flex;
     flex-direction: row;
@@ -38,6 +42,7 @@ h1 {
 
 .buttons button {
     background: transparent;
+    border: none;
 }
 
 .left-arrow,
@@ -46,6 +51,11 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.left-arrow:hover,
+.right-arrow:hover {
+    background: hsl(0, 0%, 27%)
 }
 
 .test {
@@ -65,4 +75,8 @@ h1 {
 img {
     height: 100%;
 
+}
+
+li:hover {
+    text-decoration: underline;
 }
