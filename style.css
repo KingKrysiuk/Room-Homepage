@@ -31,6 +31,7 @@ h1 {
     display: flex;
     flex-direction: row;
     padding-left: 0;
+
     margin-left: 0;
     background: hsl(0, 0%, 0%);
     width: 200px;
@@ -57,4 +58,13 @@ h1 {
 .rightbox {
     padding-top: 10px;
     justify-content: center;
+}
+
+.img {
+    height: 524px;
+}
+
+img {
+    height: 100%;
+
 }
