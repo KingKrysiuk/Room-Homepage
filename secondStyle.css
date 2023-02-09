@@ -1,0 +1,20 @@
+.second-container {
+    display: flex;
+    align-items: center;
+    width: max-content;
+}
+
+h2 {
+    font-family: 'League Spartan', sans-serif;
+    letter-spacing: 3px;
+
+}
+
+.info-text {
+    margin: 25px;
+}
+
+.info-text p {
+    padding: 7px;
+
+}

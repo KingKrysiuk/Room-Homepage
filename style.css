@@ -13,11 +13,11 @@ h1 {
 }
 
 .right {
-    padding-left: 10%;
-    width: 600px;
+
+    width: 800px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .right .buy {
@@ -25,4 +25,36 @@ h1 {
     letter-spacing: 15px;
     font-weight: bold;
     font-size: 15px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-left: 0;
+    background: hsl(0, 0%, 0%);
+    width: 200px;
+    height: 100px;
+}
+
+.buttons button {
+    background: transparent;
+}
+
+.left-arrow,
+.right-arrow {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test {
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+.rightbox {
+    padding-top: 10px;
+    justify-content: center;
 }
