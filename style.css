@@ -1,0 +1,28 @@
+h1 {
+    color: hsl(0, 0%, 0%);
+    font-size: 45px;
+}
+
+.txt {
+    color: hsl(0, 0%, 63%);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.right {
+    padding-left: 10%;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right .buy {
+    width: 300px;
+    letter-spacing: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
